@@ -1,0 +1,91 @@
+body{
+    background: #F7F5F0;
+}
+.container{
+    max-width: 1289px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.cabecalho .container{
+    display: flex;
+    
+    justify-content: space-between; 
+}
+.banner img{
+    width: 100%;
+}
+/* Aplicando estilo na seção de produtos */
+.secaoProdutos{
+    padding-top: 74px;
+}
+.secaoProdutos .produtosLista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.secaoProdutos .cardProduto{
+    background-color: #FFFFFF;
+    width: 233px;
+    height: 373.47px;
+    align-items: center;
+    padding: 22px 28px;
+    border: 2px solid #f5ebdc;
+    border-radius: 8px;
+    margin-bottom: 14px;
+}
+.secaoProdutos .cardProduto img{
+    width: 150px;
+    height: 119.47px;
+}
+.secaoProdutos .cardProduto h3{
+    width: 152px;
+    height: 60px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #502314;
+    
+    margin: 20px 0;
+ 
+}
+.secaoProdutos .cardProduto p{
+    width: 76px;
+    height: 25px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+ 
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+.secaoProdutos .cardProduto button{
+ 
+    background: #F5F3F0;
+    border:none;
+    border-radius: 15px;
+    width: 177px;
+    height: 41px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2d2d2d;
+    cursor: pointer;
+}
+
